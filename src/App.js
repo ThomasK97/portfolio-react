@@ -1,14 +1,39 @@
+import "./sass/main.scss";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './pages/Home';
+import Details from './pages/DecorWeb';
+import HomeSection from "./components/HomeSection";
+import AboutSection from "./components/AboutSection";
+import ProjectSection from "./components/ProjectSection";
+import Footer from "./components/Footer";
+import DecorWeb from "./pages/DecorWeb";
 
-import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Home/>
+     
+  
+<Router>
 
-      <h1>Hello</h1>
+<Routes>
+
+<Route path="decorweb" element={<DecorWeb />} />
+  
+          
+         
+      
+     
+
+  
+        </Routes>
+      </Router>
+
+      </div>
       
   
-    </div>
+ 
   );
 }
 

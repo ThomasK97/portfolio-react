@@ -1,0 +1,96 @@
+import React from 'react'
+import projectimg from "../media/Decor-website.png";
+import projectimg2 from "../media/science-museum.png";
+import projectimg3 from "../media/Booking-Website.png";
+
+
+
+function ProjectSection() {
+  return (
+   
+<>
+
+    <h1 id="nav-projects"></h1>
+  
+    <div className="container">
+
+  
+<div className="row">
+    <div className="section-title">
+    
+        <h2>Latest Projects</h2>
+    </div>
+</div>
+<div className="row">
+    <div className="portofolio-item">
+        <div className="portofolio-thumbnail">
+        <img src={projectimg}alt="Semester-project2"/>
+        </div>
+        <h3 className="portofolio-title">Home Decor </h3>
+       
+        <a href="decorweb" class="btn">View More</a>
+        <div className="portofolio-item-details">
+           
+            <div className="general-info">
+                <ul>
+                    <li>Published - <span>Nov 24, 2021 </span></li>
+                    <li>Framework - <span>Html, Css and Js</span></li>
+                    <li>View online - <span><a href="#" target="_blank">https://objective-murdock-0891f6.netlify.app</a></span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div className="portofolio-item">
+        <div className="portofolio-thumbnail">
+        <img src={projectimg3}alt="Science-project"/>
+        </div>
+        <h3 className="portofolio-title">Science Museum Website</h3>
+        <a href="seccondPrjoject-details.html" class="btn">View More</a>
+        <div className="portofolio-item-details">
+            <div className=" description">
+                <p>Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Quos facilis animi ipsam 
+                    doloribus! Adipisci deleniti optio perspiciatis 
+                    vel? Eveniet velit beatae repudiandae. Consectetur, 
+                    aliquam! Assumenda ea ullam reiciendis dolorem illum!</p>
+            </div>
+            <div className="general-info">
+                <ul>
+                    <li>Published - <span>20 Dec 2020</span></li>
+                    <li>Framework - <span>Html, Css and Js</span></li>
+                    <li>View online - <span><a href="#" target="_blank">https://objective-hopper-5838af.netlify.app</a></span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div className="portofolio-item">
+        <div className="portofolio-thumbnail">
+        <img src={projectimg3}alt="Watchblog-project"/>
+        </div>
+        <h3 className="portofolio-title">Holidaze Booking Website</h3>
+        <a href="thirdProject-details.html" class="btn">View More</a>
+        <div className="portofolio-item-details">
+            <div className=" description">
+                <p>Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Quos facilis animi ipsam 
+                    doloribus! Adipisci deleniti optio perspiciatis 
+                    vel? Eveniet velit beatae repudiandae. Consectetur, 
+                    aliquam! Assumenda ea ullam reiciendis dolorem illum!</p>
+            </div>
+            <div className="general-info">
+                <ul>
+                    <li>Published - <span>May 29, 2022 </span></li>
+                    <li>Framework - <span>React, Sass</span></li>
+                    <li>View online - <span><a href="#" target="_blank">cool-cupcake-afb22c.netlify.app</a></span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</div>
+</div>
+</>
+  )
+}
+
+export default ProjectSection
