@@ -1,8 +1,8 @@
 import React from 'react'
 import projectimg from "../media/Decor-website.png";
-import projectimg2 from "../media/science-museum.png";
+import projectimg2 from "../media/jsframeworks.png";
 import projectimg3 from "../media/Booking-Website.png";
-
+import { Link } from 'react-router-dom';
 
 
 function ProjectSection() {
@@ -28,7 +28,9 @@ function ProjectSection() {
         </div>
         <h3 className="portofolio-title">Home Decor </h3>
        
-        <a href="decorweb" class="btn">View More</a>
+        <Link to="/decorweb" className="btn">
+            View More
+          </Link>
         <div className="portofolio-item-details">
            
             <div className="general-info">
@@ -42,10 +44,12 @@ function ProjectSection() {
     </div>
     <div className="portofolio-item">
         <div className="portofolio-thumbnail">
-        <img src={projectimg3}alt="Science-project"/>
+        <img src={projectimg2}alt="Science-project"/>
         </div>
-        <h3 className="portofolio-title">Science Museum Website</h3>
-        <a href="seccondPrjoject-details.html" class="btn">View More</a>
+        <h3 className="portofolio-title">Js Frameworks</h3>
+        <Link to="/jsframeworks" className="btn">
+            View More
+          </Link>
         <div className="portofolio-item-details">
             <div className=" description">
                 <p>Lorem ipsum dolor sit amet consectetur 
@@ -56,9 +60,9 @@ function ProjectSection() {
             </div>
             <div className="general-info">
                 <ul>
-                    <li>Published - <span>20 Dec 2020</span></li>
-                    <li>Framework - <span>Html, Css and Js</span></li>
-                    <li>View online - <span><a href="#" target="_blank">https://objective-hopper-5838af.netlify.app</a></span></li>
+                    <li>Published - <span>Not Published</span></li>
+                    <li>Framework - <span>Next, sass</span></li>
+                    
                 </ul>
             </div>
         </div>
@@ -68,7 +72,9 @@ function ProjectSection() {
         <img src={projectimg3}alt="Watchblog-project"/>
         </div>
         <h3 className="portofolio-title">Holidaze Booking Website</h3>
-        <a href="thirdProject-details.html" class="btn">View More</a>
+        <Link to="/projectexam" className="btn">
+            View More
+          </Link>
         <div className="portofolio-item-details">
             <div className=" description">
                 <p>Lorem ipsum dolor sit amet consectetur 

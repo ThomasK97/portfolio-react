@@ -7,32 +7,34 @@ import AboutSection from "./components/AboutSection";
 import ProjectSection from "./components/ProjectSection";
 import Footer from "./components/Footer";
 import DecorWeb from "./pages/DecorWeb";
+import JsFrameworks from "./pages/JsFrameworks";
+import ProjectExam from "./pages/ProjectExam";
 
 
 function App() {
   return (
     <div className="App">
-      <Home/>
-     
-  
-<Router>
+     <Router>
 
-<Routes>
 
-<Route path="decorweb" element={<DecorWeb />} />
-  
-          
-         
+
+
+
+
+  <Routes>
+    
+    <Route index element={<Home />} />
+
+    <Route path="decorweb" element={<DecorWeb />} />
+    <Route path="jsframeworks" element={<JsFrameworks />} />
+    <Route path="projectexam" element={<ProjectExam />} />
+   
+
+
+  </Routes>
+</Router>
       
-     
-
-  
-        </Routes>
-      </Router>
-
-      </div>
-      
-  
+  </div>
  
   );
 }

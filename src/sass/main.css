@@ -192,6 +192,7 @@ section {
   border-radius: 50%;
 }
 
+/*home ends*/
 /*About section*/
 .about-img {
   width: 40%;
@@ -240,6 +241,7 @@ section {
   border-radius: 20px;
 }
 
+/*About section ends*/
 /*Portofolio*/
 .portofolio-section {
   padding-bottom: 50px;
@@ -271,6 +273,101 @@ section {
   display: none;
 }
 
+.portofolio-specific {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 200;
+  overflow-y: auto;
+}
+
+.pp-inner {
+  min-width: 100vh;
+  padding: 40px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pp-content {
+  background-color: var(--box-40);
+  padding: 30px;
+  border-radius: 30px;
+  max-width: 900px;
+  width: 100%;
+}
+
+.pp-header {
+  position: relative;
+}
+
+.pp-header .btn {
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: -40px;
+  top: -40px;
+}
+
+.pp-thumbnail img {
+  border-radius: 10px;
+}
+
+.pp-header h3 {
+  font-size: 25px;
+  text-transform: capitalize;
+  margin: 20px 0 15px;
+}
+
+.pp-body .description {
+  margin-bottom: 20px;
+}
+
+.pp-body .general-info li {
+  margin-bottom: 10px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.pp-body .general-info li span {
+  font-weight: 400;
+}
+
+.pp-body .general-info li a {
+  text-transform: lowercase;
+  color: var(--green-color);
+}
+
+.frontpage-section h2 {
+  padding: 10px;
+  color: var(--green-color);
+}
+
+.frontpage-section h3 {
+  padding: 10px 15px;
+  font-size: 30px;
+}
+
+.frontpage-section p {
+  padding: 10px 15px;
+  font-size: 20px;
+}
+
+.frontpage-section li {
+  background-color: var(--dark-color);
+  padding: 10px;
+  max-width: 900px;
+  width: 100%;
+}
+
+/*Portofolio ends*/
+/*Footer*/
 .footer-container {
   max-width: 1170px;
   margin: auto;
@@ -345,6 +442,7 @@ section {
   color: var(--green-color);
 }
 
+/*Footer ends*/
 /*mediaqueries*/
 @media (max-width: 991px) {
   .container {

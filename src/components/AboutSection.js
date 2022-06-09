@@ -1,5 +1,6 @@
 import React from "react";
 import aboutimg from "../media/about-img.png";
+import CV from "/Users/thomaskildahl/Desktop/It2/portfolio-react/src/cv/CvTK2.docx.pdf";
 function AboutSection() {
   return (
     <>
@@ -34,7 +35,7 @@ function AboutSection() {
             <h3>My Expert Fields</h3>
             <div class="hashtags">
               <div class="hashtags-item">Html</div>
-              <div class="hashtags-item">Css</div>
+              <div class="hashtags-item">Sass</div>
               <div class="hashtags-item">React</div>
               <div class="hashtags-item">Next</div>
             </div>
@@ -67,7 +68,7 @@ function AboutSection() {
 
             <h3>Download my Resume</h3>
 
-            <a href="/cv/Cv TK 2.docx.pdf" download="" class="btn">
+            <a href={CV} download="" class="btn">
               CV
             </a>
           </div>

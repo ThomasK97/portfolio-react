@@ -1,6 +1,6 @@
 import React from 'react'
-import projectimg from "../media/rainydays.png";
 import decorimg from "../media/Decor-website.png"
+import { Link } from 'react-router-dom';
 
 function DecorWeb() {
   return (
@@ -9,7 +9,9 @@ function DecorWeb() {
     <div class="pp-inner">
         <div class="pp-content">
             <div class="pp-header">
-                <a href="index.html" class="btn">X</a>
+            <Link to="/" className="btn">
+            X
+          </Link>
                 <div class="pp-thumbnail">
                 <img src={decorimg}alt="pp-thumbnail"/>
                 </div>
