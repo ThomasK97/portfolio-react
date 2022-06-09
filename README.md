@@ -25,7 +25,7 @@ This is my Portfolio.
 
 ### Running
 
-Run npm run dev
+npm start
 
 ## Contact
 
