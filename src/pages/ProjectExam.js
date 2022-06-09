@@ -26,7 +26,7 @@ function ProjectExam() {
                 <div class="general-info">
                     <ul>
                         <li>Last Published - <span> 29 May 2022</span></li>
-                        <li>Framework - <span>Html, Css and Js</span></li>
+                        <li>Framework - <span>React, Sass, Bootstrap</span></li>
                         <li>GitHub - <span><a href="https://github.com/Noroff-FEU-Assignments/project-exam-2-ThomasK97.git" target="_blank">https://github.com/Noroff-FEU-Assignments/project-exam-2-ThomasK97.git</a></span></li>
                         <li>View online - <span><a href="https://cool-cupcake-afb22c.netlify.app" target="_blank">https://cool-cupcake-afb22c.netlify.app</a></span></li> 
                     </ul>
